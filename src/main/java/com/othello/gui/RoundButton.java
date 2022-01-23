@@ -1,4 +1,4 @@
-package com.othello.gui;
+package main.java.com.othello.gui;
 
 import javax.swing.*;
 import java.awt.*;
@@ -28,7 +28,7 @@ public class RoundButton extends JButton {
     @Override
     public void paint(Graphics g){
         Graphics2D g2 = (Graphics2D)  g.create();
-        Color color = null;
+        Color color;
         if(!disabled)
             color = Color.YELLOW;
         else
@@ -45,7 +45,7 @@ public class RoundButton extends JButton {
     protected void paintComponent(Graphics g){
         Graphics2D g2 = (Graphics2D)  g.create();
 
-        Color color = null;
+        Color color;
         if(!disabled)
             color = Color.YELLOW;
         else

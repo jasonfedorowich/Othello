@@ -1,9 +1,10 @@
-package com.othello.gui;
+package main.java.com.othello.gui;
 
 
-import com.othello.board.Grid;
-import com.othello.board.Move;
+import main.java.com.othello.board.Grid;
+import main.java.com.othello.board.Move;
 import javafx.util.Pair;
+
 
 import javax.swing.*;
 import java.awt.*;
@@ -106,9 +107,9 @@ public class Board {
 
             for(int j = 0; j < 8; j++){
 
-                if(grid.getColor(j, i) == com.othello.board.Color.BLACK){
+                if(grid.getColor(j, i) == main.java.com.othello.board.Color.BLACK){
                     ((RoundButton)buttons[i][j]).toBlack();
-                }else if(grid.getColor(j, i) == com.othello.board.Color.WHITE){
+                }else if(grid.getColor(j, i) == main.java.com.othello.board.Color.WHITE){
                     ((RoundButton)buttons[i][j]).toWhite();
                 }
             }

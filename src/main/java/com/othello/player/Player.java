@@ -1,6 +1,6 @@
-package com.othello.player;
+package main.java.com.othello.player;
 
-import com.othello.board.Color;
+import main.java.com.othello.board.Color;
 
 public class Player {
 

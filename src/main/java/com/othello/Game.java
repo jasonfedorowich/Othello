@@ -1,10 +1,10 @@
-package com.othello;
+package main.java.com.othello;
 
-import com.othello.board.Color;
-import com.othello.board.Grid;
-import com.othello.board.Move;
-import com.othello.gui.Board;
-import com.othello.player.Player;
+import main.java.com.othello.board.Color;
+import main.java.com.othello.board.Grid;
+import main.java.com.othello.board.Move;
+import main.java.com.othello.gui.Board;
+import main.java.com.othello.player.Player;
 import javafx.util.Pair;
 
 import java.util.Map;

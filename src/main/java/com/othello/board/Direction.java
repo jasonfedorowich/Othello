@@ -1,4 +1,4 @@
-package com.othello.board;
+package main.java.com.othello.board;
 
 import javafx.util.Pair;
 
