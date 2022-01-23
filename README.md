@@ -1,4 +1,4 @@
-#Othello
+# Othello
 
 using java swing
 #
